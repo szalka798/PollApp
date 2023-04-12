@@ -1,0 +1,12 @@
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\bin\Debug\net6.0\PollApp.Core.deps.json
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\bin\Debug\net6.0\PollApp.Core.dll
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\bin\Debug\net6.0\PollApp.Core.pdb
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.csproj.AssemblyReference.cache
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.AssemblyInfoInputs.cache
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.AssemblyInfo.cs
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.dll
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\refint\PollApp.Core.dll
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\PollApp.Core.pdb
+C:\Users\xszal\source\repos\PollApp\PollApp.Core\obj\Debug\net6.0\ref\PollApp.Core.dll

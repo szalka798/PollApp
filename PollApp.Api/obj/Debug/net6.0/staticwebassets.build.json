@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4X8Y4gDS0YOUaGxGBN4GIVX7jIazWuUAjrYdmHkozWE=",
+  "Source": "PollApp.Api",
+  "BasePath": "_content/PollApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
