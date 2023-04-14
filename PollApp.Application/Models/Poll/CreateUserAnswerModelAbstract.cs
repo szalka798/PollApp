@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PollApp.Application.Models.Poll
 {
-    public class CreateUserAnswerModelAbstract
+    public abstract class CreateUserAnswerModelAbstract
     {
         [Required]
         public int PollId { get; set; }
