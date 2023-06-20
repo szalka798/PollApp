@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bk2s0I9uMdSM1mrynDjd+aWNQRz7JXOAobxxhh60XZblSfMO4eMMPiK6BCBAXAUpBSSQoay0HQlMtcRLpRhNoA==",
+  "dgSpecHash": "7lNMABthplAUjxmfepdBuUEIVkIwJD3fNq/tqHy5r8HxQO2cYBvzknrB3XWVBSMEgVgMl6qCakypWM9UlAnifA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Api\\PollApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Api\\PollApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xszal\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\xszal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

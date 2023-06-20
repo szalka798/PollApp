@@ -9,8 +9,6 @@ namespace PollApp.Application.Models.Poll
 {
     public class CreateUserAnswerModelMultipleOptions : CreateUserAnswerModelAbstract
     {
-
-        [Required]
         public List<int> AnswersId { get; set; }
     }
 }

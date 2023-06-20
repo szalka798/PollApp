@@ -9,7 +9,7 @@ namespace PollApp.Application.Models.Poll
 {
     public class CreateUserAnswerModelOneOption : CreateUserAnswerModelAbstract
     {
-        [Required]
+
         public int AnswerId { get; set; }
     }
 }

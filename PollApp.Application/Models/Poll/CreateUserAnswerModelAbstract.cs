@@ -9,7 +9,6 @@ namespace PollApp.Application.Models.Poll
 {
     public abstract class CreateUserAnswerModelAbstract
     {
-        [Required]
         public int PollId { get; set; }
     }
 }

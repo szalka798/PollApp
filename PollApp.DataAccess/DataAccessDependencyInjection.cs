@@ -24,7 +24,7 @@ namespace PollApp.DataAccess
         }
         private static void AddDatabase(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("ContextConnection") ?? throw new InvalidOperationException("Connection string 'ContextConnection' not found.");
+            var connectionString = "Server=(localdb)\\mssqllocaldb;Database=PollApp;Trusted_Connection=True;MultipleActiveResultSets=true";
 
             services.AddDbContext<DatabaseContext>(options =>
                 options.UseSqlServer(connectionString));

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj": {}
+    "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj": {
+    "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
         "projectName": "PollApp.Core",
-        "projectPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
+        "projectPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
         "packagesPath": "C:\\Users\\xszal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj": {
+    "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj",
         "projectName": "PollApp.DataAccess",
-        "projectPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.DataAccess\\PollApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\xszal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -101,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj": {
-                "projectPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj"
+              "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj": {
+                "projectPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj"
               }
             }
           }

@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
       "projectName": "PollApp.Core",
-      "projectPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
+      "projectPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\PollApp.Core.csproj",
       "packagesPath": "C:\\Users\\xszal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xszal\\source\\repos\\PollApp\\PollApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\xszal\\Source\\Repos\\szalka798\\PollApp\\PollApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

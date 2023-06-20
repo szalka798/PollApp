@@ -59,10 +59,12 @@ namespace PollApp.Application.Services
             var poll = _databaseContext.Polls
                 .Include(x => x.Answers)
                 .FirstOrDefault(x => x.Id == createUserAnswerModelAbstract.PollId);
+
             if (poll == null) throw new Exception();
 
             var answers = _checkAnswerFactory.GetCheckAnswerFactory(createUserAnswerModelAbstract).CheckExistAnswer(createUserAnswerModelAbstract, poll.Answers.Select(x => x.Id).ToList());
             if (answers == null) throw new Exception();
+
             var userAnswers = new List<UserAnswer>();
 
             foreach (var answer in answers)

@@ -12,6 +12,7 @@ namespace PollApp.Application
 {
     public static class ApplicationDependencyInjection
     {
+        
         public static IServiceCollection AddApplication(this IServiceCollection services, IWebHostEnvironment env)
         {
             AddServices(services, env);
@@ -22,6 +23,7 @@ namespace PollApp.Application
         {
             services.AddScoped<CheckAnswerFactory>();
             services.AddScoped<IPollService, PollService>();
+            services.AddScoped<IUserService, UserService>();
         }
 
         private static void RegisterAutoMapper(this IServiceCollection services)

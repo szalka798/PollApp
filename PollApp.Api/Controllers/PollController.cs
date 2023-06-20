@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using PollApp.Application.Models.Poll;
 using PollApp.Application.Services;
@@ -7,6 +8,7 @@ using PollApp.Application.Services;
 
 namespace PollApp.Api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PollController : ControllerBase
@@ -19,7 +21,7 @@ namespace PollApp.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> Get([FromRoute]int id)
         {
             return Ok(await _pollService.GetPoll(id));
         }

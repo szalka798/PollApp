@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using PollApp.Application;
 using PollApp.Application.Models.Poll;
 using PollApp.Core.Enum;
+using PollApp.DataAccess;
 using PollApp.DataAccess.Identity;
 using PollApp.DataAccess.Persistence;
 
@@ -26,12 +27,7 @@ builder.Services.AddControllers().AddNewtonsoftJson(options => {
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connectionString = builder.Configuration.GetConnectionString("ContextConnection") ?? throw new InvalidOperationException("Connection string 'ContextConnection' not found.");
-
-builder.Services.AddDbContext<DatabaseContext>(options =>
-    options.UseSqlServer(connectionString));
-
-builder.Services.AddApplication(builder.Environment);
+builder.Services.AddApplication(builder.Environment).AddDataAccess(builder.Configuration);
 
 
 var app = builder.Build();
@@ -45,6 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
